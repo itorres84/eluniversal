@@ -15,7 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //se declara la pantalla inicial
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let LogVC = ViewController()
+        LogVC.title = "El Universal Noticias"
+        let navController = UINavigationController(rootViewController: LogVC)
+        navController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        navController.navigationBar.barTintColor = UIColor(red: 41/255, green: 68/255, blue: 255/255, alpha: 1)
+        navController.navigationBar.barStyle = UIBarStyle.black
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
+        
+        
         return true
     }
 
