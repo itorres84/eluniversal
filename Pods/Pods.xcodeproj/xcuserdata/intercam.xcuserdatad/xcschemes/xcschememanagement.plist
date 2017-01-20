@@ -4,7 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-UniversalNoticias.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -12,7 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>ADA78C98BEF952DD269B255DC11CB6BB</key>
+		<key>265FF7A242D89EA317ABF6518506E92C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B1714E816AE794962516E2ECBB40A5A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84A5B6F5AD6868B440C8E2E39C1D4744</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>

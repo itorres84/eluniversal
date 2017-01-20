@@ -1,3 +1,28 @@
-PODFILE CHECKSUM: b2fbf069424fecd6e3e477aae256841ff61b343d
+PODS:
+  - Alamofire (4.3.0)
+  - MBProgressHUD (0.9.2)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - MBProgressHUD (~> 0.9.0)
+  - SwiftyJSON (from `https://github.com/acegreen/SwiftyJSON`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/acegreen/SwiftyJSON
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 8971384559780e631b041ac91b16734a396d4c14
+    :git: https://github.com/acegreen/SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 871a0e753c41056ca63fa75ac588fa220a2ce58c
 
 COCOAPODS: 1.1.1

@@ -20,26 +20,6 @@ let intercamFont = UIFont(name: "Helvetica", size: 22)
 let pxaFont = "Helvetica"
 
 
-let host = "http://10.9.1.118:8085/"
-//let host = "http://www.interbanco.com.mx/"
-
-let URLRESTINIT = host + "RESTiAutorizaWS-0.0.1-SNAPSHOT/"
-
-let LOGINURL = URLRESTINIT + "rest/jsonServices/login"
-let CUENTAURL = URLRESTINIT + "rest/jsonServices/cuenta"
-let SALIDAURL = URLRESTINIT + "rest/jsonServices/salir"
-let FINDOPEURL = URLRESTINIT + "rest/jsonServices/operaciones"
-let AUTURL = URLRESTINIT + "rest/jsonServices/Autoriza"
-let FINDDIRECCIONURL = URLRESTINIT + "rest/jsonServices/findDireccion"
-let FINDBENEFICIARIOURL = URLRESTINIT + "rest/jsonServices/findBeneficiario"
-let DDOBSURL = URLRESTINIT + "rest/jsonServices/agregaObservacion"
-let FINDOBSURL = URLRESTINIT + "rest/jsonServices/findObservacion"
-let CONCREURL = URLRESTINIT + "rest/jsonServices/consultaCreditos"
-let FINDPXA = URLRESTINIT + "rest/jsonServices/findMontoPxA"
-let SALDODEUDORURL = URLRESTINIT + "rest/jsonServices/findSaldoDeudor"
-let AUTPXAURL = URLRESTINIT + "rest/jsonServices/findAutoPxA"
-let ADDOBSPXAURL = URLRESTINIT + "rest/jsonServices/agregaObservacionPXA"
-let FINFOBSPXAURL = URLRESTINIT + "rest/jsonServices/findObservacionPXA"
 
 let FONTCOLORVI     = UIColor(red: 0.38, green: 0.55, blue: 0.18, alpha: 0.5)
 let FONTCOLORDATOP  = UIColor(red: 0.1, green: 0.1, blue: 0.1, alpha: 0.3)

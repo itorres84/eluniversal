@@ -9,5 +9,6 @@ target 'UniversalNoticias' do
   
   pod 'Alamofire', '~> 4.3'
   pod 'MBProgressHUD', '~> 0.9.0'
+  pod 'SwiftyJSON', :git => 'https://github.com/acegreen/SwiftyJSON', :branch => 'swift3'
 
 end
