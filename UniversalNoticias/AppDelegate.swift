@@ -19,10 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //se declara la pantalla inicial
         window = UIWindow(frame: UIScreen.main.bounds)
         let LogVC = ViewController()
-        LogVC.title = "El Universal Noticias"
+        LogVC.title = "EL UNIVERSAL NOTICIAS"
         let navController = UINavigationController(rootViewController: LogVC)
         navController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
-        navController.navigationBar.barTintColor = UIColor(red: 41/255, green: 68/255, blue: 255/255, alpha: 1)
+        navController.navigationBar.barTintColor = UIColor(red: 15/255, green: 42/255, blue: 204/255, alpha: 1)
         navController.navigationBar.barStyle = UIBarStyle.black
         window?.rootViewController = navController
         window?.makeKeyAndVisible()

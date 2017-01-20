@@ -27,7 +27,7 @@ let FONTCOLORLITOP  = UIColor(red: 0, green: 0, blue: 0, alpha: 0.9)
 let _AUTCOLOR       = UIColor(red: 0.13, green: 0.61, blue: 0.125, alpha: 1)
 let _DEALINVALIDO   = "2"
 let _DEALOPECAN     = "-1"
-let _CELLHEIGHT : CGFloat = 200.0
+let _CELLHEIGHT : CGFloat = 250.0
 let _SPEEDPROC  : CGFloat = 0.2
 
 
