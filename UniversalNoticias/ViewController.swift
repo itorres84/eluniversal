@@ -131,6 +131,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+         let DetailVC: DetalleVC = DetalleVC()
+        
+        var noticia : Noticias = Noticias()
+        noticia = arrayNot[indexPath.row] as Noticias
+        
+        DetailVC.noticia = noticia
+        
+        self.navigationController?.show(DetailVC, sender: self)
+        
+        
     }
     
     
