@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  UniversalNoticias
 //
-//  Created by Intercam on 19/01/17.
+//  Created by Israel Torres Alvarado on 19/01/17.
 //  Copyright © 2017 Universal. All rights reserved.
 //
 
@@ -17,7 +17,6 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
