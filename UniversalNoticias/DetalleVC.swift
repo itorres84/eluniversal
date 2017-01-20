@@ -8,9 +8,10 @@
 
 import UIKit
 
-class DetalleVC: UIViewController {
+class DetalleVC: UIViewController, UIScrollViewDelegate {
 
     var noticia: Noticias = Noticias()
+    var arrayNotDetalle: [Noticias] = [Noticias]()
     var viewFondo: UIView!
     var btnBack: UIBarButtonItem!
     
@@ -19,6 +20,10 @@ class DetalleVC: UIViewController {
     var lblBody: UILabel!
     var imgNot: UIImageView!
     var imgFace: UIImageView!
+    
+    // SCROLL VIEW
+    var pageControl: UIPageControl!
+    var scrollView:  UIScrollView!
     
     
     override func viewDidLoad() {
@@ -92,8 +97,65 @@ class DetalleVC: UIViewController {
         view.addSubview(imgFace)
         imgFace.image = UIImage(named: "redes.png")
         
+        /*scrollView = UIScrollView(frame: CGRect(x: width*0.026, y: height*0.34, width: width*0.95, height: height*0.54))
+        scrollView.delegate = self
+        scrollView.backgroundColor = UIColor.clear
+        scrollView.layer.borderColor = UIColor.white.cgColor
+        scrollView.layer.borderWidth = 1.0
+        scrollView.showsHorizontalScrollIndicator = true
+        scrollView.showsVerticalScrollIndicator = true
+        scrollView.isScrollEnabled = true
+        scrollView.isPagingEnabled = true
+        scrollView.bounces  = true
+        scrollView.bouncesZoom = true
+        scrollView.delaysContentTouches = true
+        scrollView.canCancelContentTouches = true
+        scrollView.isUserInteractionEnabled = true
+        scrollView.isMultipleTouchEnabled = true
+        
+        view.addSubview(scrollView)
+        
+        pageControl = UIPageControl(frame:CGRect(x: width*0.026, y: height*0.83, width: width*0.95,height: height*0.05))
+        pageControl.backgroundColor = UIColor.orange
+        pageControl.hidesForSinglePage = true
+        pageControl.isUserInteractionEnabled = true
+        pageControl.currentPage = 0
+        pageControl.numberOfPages = arrayNotDetalle.count
+        view.addSubview(pageControl)
+        
+        let pagesScrollViewSize = scrollView.frame.size
+        scrollView.contentSize = CGSize(width: pagesScrollViewSize.width * CGFloat(arrayNotDetalle.count), height: pagesScrollViewSize.height*0.50)*/
+        
+        
         
     }
+    
+    /*func loadVisiblePages() {
+        
+        var frame: CGRect = CGRect(x: 0, y: 0, width: 0, height: 0)
+        
+        for page in 0..<arrayNotDetalle.count {
+            
+            frame.origin.x = self.scrollView.frame.size.width * CGFloat(page)
+            frame.size = self.scrollView.frame.size
+            self.scrollView.isPagingEnabled = true
+            
+            let newPageView = UIView(frame: frame)
+            
+            if page == 0{
+                
+            }else if page == 1 {
+                
+            }else if page == 2{
+                
+            }else if page == 3{
+       
+            }
+            
+            self.scrollView .addSubview(newPageView)
+        }
+    
+    }*/
 
     func Regresar(_ btnBack: UIBarButtonItem){
         
