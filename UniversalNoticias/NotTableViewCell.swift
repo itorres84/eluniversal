@@ -46,7 +46,7 @@ class NotTableViewCell: UITableViewCell {
         
         lblPais = UILabel(frame: CGRect(x: width*0.05, y: _CELLHEIGHT*0.70, width: width*0.80, height: _CELLHEIGHT*0.10))
         lblPais.font = UIFont(name: pxaFont, size: 15)
-        lblPais.textColor = UIColor(red: 15/255, green: 42/255, blue: 204/255, alpha: 1)
+        lblPais.textColor = UIColor(red: 0/255, green: 182/255, blue: 252/255, alpha: 1)
         lblPais.textAlignment = NSTextAlignment.justified
         lblPais.numberOfLines = 0
         self.addSubview(lblPais)
@@ -67,10 +67,10 @@ class NotTableViewCell: UITableViewCell {
         
         lblseccion = UILabel(frame: CGRect(x: width*0.50, y: _CELLHEIGHT*0.10, width: width*0.40, height: _CELLHEIGHT*0.10))
         lblseccion.font = UIFont(name: pxaFont, size: 12)
-        lblseccion.textColor = UIColor(red: 15/255, green: 42/255, blue: 204/255, alpha: 1)
+        lblseccion.textColor = UIColor(red: 0/255, green: 182/255, blue: 252/255, alpha: 1)
         lblseccion.textAlignment = NSTextAlignment.justified
         lblseccion.numberOfLines = 0
-        lblseccion.layer.shadowColor = UIColor(red: 80/255, green: 93/255, blue: 107/255, alpha: 2).cgColor
+        lblseccion.layer.shadowColor = UIColor(red: 0/255, green: 182/255, blue: 252/255, alpha: 1).cgColor
         
         let rect:CGRect = lblseccion.frame
         let linePath:UIBezierPath = UIBezierPath()
@@ -78,7 +78,7 @@ class NotTableViewCell: UITableViewCell {
         linePath.addLine(to: CGPoint(x: rect.size.width, y: rect.size.height))
         let lineLayer: CAShapeLayer = CAShapeLayer()
         lineLayer.lineWidth = 2.0
-        lineLayer.strokeColor = UIColor(red: 15/255, green: 42/255, blue: 204/255, alpha: 1).cgColor
+        lineLayer.strokeColor = UIColor(red: 0/255, green: 182/255, blue: 252/255, alpha: 1).cgColor
         lineLayer.fillColor = nil
         lineLayer.path = linePath.cgPath
         
@@ -92,6 +92,11 @@ class NotTableViewCell: UITableViewCell {
         lblAutor.textAlignment = NSTextAlignment.justified
         lblAutor.numberOfLines = 0
         self.addSubview(lblAutor)
+        
+        imgFace = UIImageView(frame: CGRect(x: width*0.50, y: _CELLHEIGHT*0.50, width: width*0.35, height: _CELLHEIGHT*0.12))
+        //imgFace.backgroundColor = UIColor.black
+        imgFace.layer.cornerRadius = 8.0
+        self.addSubview(imgFace)
         
         
     }

@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         LogVC.title = "EL UNIVERSAL NOTICIAS"
         let navController = UINavigationController(rootViewController: LogVC)
         navController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
-        navController.navigationBar.barTintColor = UIColor(red: 15/255, green: 42/255, blue: 204/255, alpha: 1)
+        navController.navigationBar.barTintColor = UIColor(red: 0/255, green: 92/255, blue: 160/255, alpha: 1)
         navController.navigationBar.barStyle = UIBarStyle.black
         window?.rootViewController = navController
         window?.makeKeyAndVisible()

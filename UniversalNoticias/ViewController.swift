@@ -123,6 +123,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.lblSubtitulo.text = noticia.title
         cell.lblseccion.text = noticia.main_section
         cell.lblAutor.text = noticia.section
+        cell.imgFace.image = UIImage(named: "redes.png")
         
         return cell
         

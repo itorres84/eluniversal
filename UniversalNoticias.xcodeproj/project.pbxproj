@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		929253851E31D50800649411 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929253841E31D50800649411 /* LoadingView.swift */; };
+		929253871E31DBBA00649411 /* redes.png in Resources */ = {isa = PBXBuildFile; fileRef = 929253861E31DBBA00649411 /* redes.png */; };
 		92DD05FA1E3193860096F4FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DD05F91E3193860096F4FE /* AppDelegate.swift */; };
 		92DD05FC1E3193860096F4FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DD05FB1E3193860096F4FE /* ViewController.swift */; };
 		92DD06011E3193860096F4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DD06001E3193860096F4FE /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		72560C12D8CF3272C14B2973 /* Pods-UniversalNoticias.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalNoticias.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UniversalNoticias/Pods-UniversalNoticias.debug.xcconfig"; sourceTree = "<group>"; };
 		929253841E31D50800649411 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		929253861E31DBBA00649411 /* redes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redes.png; sourceTree = "<group>"; };
 		92DD05F61E3193860096F4FE /* UniversalNoticias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalNoticias.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DD05F91E3193860096F4FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92DD05FB1E3193860096F4FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				92DD06151E31BF0C0096F4FE /* fondo.png */,
+				929253861E31DBBA00649411 /* redes.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				92DD06161E31BF0C0096F4FE /* fondo.png in Resources */,
 				92DD06041E3193860096F4FE /* LaunchScreen.storyboard in Resources */,
 				92DD06011E3193860096F4FE /* Assets.xcassets in Resources */,
+				929253871E31DBBA00649411 /* redes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
